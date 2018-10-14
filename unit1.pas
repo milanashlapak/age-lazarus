@@ -1,4 +1,4 @@
-unit Unit1;
+﻿unit Unit1;
 
 {$mode objfpc}{$H+}
 
@@ -43,6 +43,7 @@ begin
   17..23:label2.caption:='Юнак, ';
   24..60:label2.caption:='Дорослий, ';
   61..120:label2.caption:='Людина похилого віку, ';
+  121..500: label2.caption := 'Вампир из сумерек';
   end;
   b:=a mod 10;
   if (a=11) or (a=12) or (a=13) or (a=14)
