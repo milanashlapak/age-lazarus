@@ -39,8 +39,8 @@ begin
   a:= strtoint (edit1.text);
   case a of
   0..10:label2.caption:='Дитина, ';
-  11..16:label2.caption:='Підліток, ';
-  17..23:label2.caption:='Юнак, ';
+  17..20:label2.caption:='Юнак, ';
+  21..23:label2.caption:='Юнак, 11111';
   24..60:label2.caption:='Дорослий, ';
   61..120:label2.caption:='Людина похилого віку, ';
   121..500: label2.caption := 'Вампир из сумерек';
@@ -67,3 +67,4 @@ end;
 
 end.
 
+  {11..16:label2.caption:='Підліток, ';}
